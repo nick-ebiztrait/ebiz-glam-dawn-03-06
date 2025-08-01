@@ -28,7 +28,8 @@
     {% if page_description %}
       <meta name="description" content="{{ page_description | escape }}">
     {% endif %}
-
+   <link rel="preload" as="style" media="screen" href="https://shopglamsociety.com/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css" crossorigin="anonymous"> 
+  
     {% render 'meta-tags' %}
 
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
